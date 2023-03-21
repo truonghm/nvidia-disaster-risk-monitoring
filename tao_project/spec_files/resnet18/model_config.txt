@@ -1,0 +1,13 @@
+model_config {
+  model_input_width: <<<<FIXME>>>>
+  model_input_height: <<<<FIXME>>>>
+  model_input_channels: <<<<FIXME>>>>
+  num_layers: 18
+  all_projections: true
+  arch: "resnet"
+  use_batch_norm: true
+  training_precision {
+    backend_floatx: FLOAT32
+  }
+}
+########## LEAVE NEW LINE BELOW
